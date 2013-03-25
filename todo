@@ -4,3 +4,4 @@ scalding
 mrjob
 apache crunch
 impala
+hadoop streaming
