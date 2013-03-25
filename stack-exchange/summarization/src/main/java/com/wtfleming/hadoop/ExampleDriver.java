@@ -11,6 +11,8 @@ public class ExampleDriver {
                    "A map/reduce program that counts the words in the input files.");
       pgd.addClass("commentwordcount", CommentWordCount.class, 
                    "A map/reduce program that counts the number of words in the comments file.");
+      pgd.addClass("minmaxcount", MinMaxCount.class,
+                    "Get first, most recent, and total number of comments");
       pgd.driver(argv);
       
       exitCode = 0;  // Success
