@@ -15,6 +15,10 @@ public class ExampleDriver {
                     "Get first, most recent, and total number of comments");
       pgd.addClass("average", Average.class,
               "Calculate average comment length by hour of day");
+      pgd.addClass("medianstddev", MedianStandardDeviation.class,
+              "Calculate median and standard deviation of comment length by hour of day");
+      pgd.addClass("bettermedianstddev", BetterMedianStandardDeviation.class,
+              "Calculate median and standard deviation of comment length by hour of day");
       pgd.driver(argv);
       
       exitCode = 0;  // Success
