@@ -13,6 +13,8 @@ public class ExampleDriver {
                    "A map/reduce program that counts the number of words in the comments file.");
       pgd.addClass("minmaxcount", MinMaxCount.class,
                     "Get first, most recent, and total number of comments");
+      pgd.addClass("average", Average.class,
+              "Calculate average comment length by hour of day");
       pgd.driver(argv);
       
       exitCode = 0;  // Success
