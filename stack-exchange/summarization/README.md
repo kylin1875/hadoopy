@@ -11,3 +11,6 @@ hadoop jar target/hadoop-summarization-1.0-jar-with-dependencies.jar medianstdde
 hadoop jar target/hadoop-summarization-1.0-jar-with-dependencies.jar bettermedianstddev ../../datasets/gaming-stack-exchange/comments.xml output/bettermedianstddev/
 
 hadoop jar target/hadoop-summarization-1.0-jar-with-dependencies.jar invertedindexwikipedia ../../datasets/gaming-stack-exchange/posts.xml output/invertedindexwikipedia/
+
+hadoop jar target/hadoop-summarization-1.0-jar-with-dependencies.jar countusersbystate ../../datasets/gaming-stack-exchange/users.xml output/countusersbystate/
+
