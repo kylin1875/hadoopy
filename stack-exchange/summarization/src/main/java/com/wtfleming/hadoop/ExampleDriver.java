@@ -21,6 +21,8 @@ public class ExampleDriver {
               "Calculate median and standard deviation of comment length by hour of day");
       pgd.addClass("invertedindexwikipedia", InvertedIndexWikipedia.class,
               "Generate an inverted index of links to wikipedia from posts");
+      pgd.addClass("countusersbystate", CountUsersByState.class,
+              "Count how many users are in each US state");
       pgd.driver(argv);
       
       exitCode = 0;  // Success
