@@ -17,6 +17,8 @@ public class ExampleDriver {
         	   "Find top 10 users ranked by reputation");
       pgd.addClass("distinct-users", DistinctUsers.class, 
        	   "Get a list of distinct user ids");
+      pgd.addClass("unique-user-count", UniqueUserCount.class, 
+          	   "Get a count of the number of unique users");
       
       pgd.driver(argv);
       
