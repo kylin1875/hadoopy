@@ -7,11 +7,12 @@ public class ExampleDriver {
     int exitCode = -1;
     ProgramDriver pgd = new ProgramDriver();
     try {
-      pgd.addClass("distributedgrep", DistributedGrep.class, 
+      pgd.addClass("distributed-grep", DistributedGrep.class, 
                    "A map/reduce program implementation of grep.");
       pgd.addClass("simple-random-sampling", SimpleRandomSampling.class, 
               	   "Randomly sample records");
-      
+      pgd.addClass("bloom-filtering", BloomFiltering.class, 
+         	   "Bloom filter");
       
       
       pgd.driver(argv);

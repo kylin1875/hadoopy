@@ -1,5 +1,8 @@
+You can generate a bloom filter file in ../bloom-filter, or use the included hotlist.blm
 
-hadoop jar target/hadoop-summarization-1.0-jar-with-dependencies.jar commentwordcount ../../datasets/gaming-stack-exchange/comments.xml output/comments/
+hadoop jar target/hadoop-filtering-1.0-jar-with-dependencies.jar bloom-filtering ../../datasets/gaming-stack-exchange/comments.xml hotlist.blm output/bloom-filtering/
+
+
 
 
 
