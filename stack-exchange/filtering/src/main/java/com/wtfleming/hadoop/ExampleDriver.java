@@ -15,7 +15,8 @@ public class ExampleDriver {
          	   "Bloom filter");
       pgd.addClass("top-ten", TopTen.class, 
         	   "Find top 10 users ranked by reputation");
-      
+      pgd.addClass("distinct-users", DistinctUsers.class, 
+       	   "Get a list of distinct user ids");
       
       pgd.driver(argv);
       
