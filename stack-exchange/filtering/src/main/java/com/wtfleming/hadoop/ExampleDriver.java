@@ -13,6 +13,8 @@ public class ExampleDriver {
               	   "Randomly sample records");
       pgd.addClass("bloom-filtering", BloomFiltering.class, 
          	   "Bloom filter");
+      pgd.addClass("top-ten", TopTen.class, 
+        	   "Find top 10 users ranked by reputation");
       
       
       pgd.driver(argv);
