@@ -15,7 +15,8 @@ public class ExampleDriver {
           "A map/reduce program that partitions users based on the last time they logged on.");
       pgd.addClass("binning", Binning.class, 
           "A map/reduce program that bins posts based on their tags.");
-      
+      pgd.addClass("total-order-sorting", TotalOrderSorting.class, 
+          "A map/reduce program that sorts.");
       pgd.driver(argv);
       
       exitCode = 0;  // Success
