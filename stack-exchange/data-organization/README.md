@@ -4,7 +4,7 @@ hadoop jar target/hadoop-data-organization-1.0-jar-with-dependencies.jar post-co
 hadoop jar target/hadoop-data-organization-1.0-jar-with-dependencies.jar question-answer-hierarchy output/post-comment-building/part-r-00000 output/question-answer-building
 
 
-
+hadoop jar target/hadoop-data-organization-1.0-jar-with-dependencies.jar partition-users ../../datasets/gaming-stack-exchange/Users.xml output/partition-users
 
 
 
