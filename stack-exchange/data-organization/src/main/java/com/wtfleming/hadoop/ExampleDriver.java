@@ -9,6 +9,10 @@ public class ExampleDriver {
     try {
       pgd.addClass("post-comment-building", PostCommentBuilding.class, 
           "A map/reduce program that groups together posts and associated comments.");
+      pgd.addClass("question-answer-hierarchy", QuestionAnswerBuilding.class, 
+          "A map/reduce program that groups together questions and their answers.");
+      
+      
       pgd.driver(argv);
       
       exitCode = 0;  // Success
