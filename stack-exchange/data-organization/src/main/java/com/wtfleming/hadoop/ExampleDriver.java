@@ -16,6 +16,8 @@ public class ExampleDriver {
       pgd.addClass("binning", Binning.class, 
           "A map/reduce program that bins posts based on their tags.");
       pgd.addClass("total-order-sorting", TotalOrderSorting.class, 
+          "A map/reduce program that sorts users based on last time they logged on.");
+      pgd.addClass("anonymize-users", AnonymizeUsers.class, 
           "A map/reduce program that sorts.");
       pgd.driver(argv);
       

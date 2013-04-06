@@ -9,4 +9,4 @@ hadoop jar target/hadoop-data-organization-1.0-jar-with-dependencies.jar binning
 
 hadoop jar target/hadoop-data-organization-1.0-jar-with-dependencies.jar total-order-sorting ../../datasets/gaming-stack-exchange/Users.xml output/total-order-sorting 0.1
 
-
+hadoop jar target/hadoop-data-organization-1.0-jar-with-dependencies.jar anonymize-users ../../datasets/gaming-stack-exchange/Users.xml output/anonymize-users
