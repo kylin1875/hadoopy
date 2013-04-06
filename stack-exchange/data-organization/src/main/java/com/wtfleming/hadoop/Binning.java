@@ -97,7 +97,7 @@ public class Binning {
     String[] otherArgs = new GenericOptionsParser(conf, args)
         .getRemainingArgs();
     if (otherArgs.length != 2) {
-      System.err.println("Usage: Binning <posts> <outdir>");
+      System.err.println("Usage: binning <posts> <outdir>");
       System.exit(1);
     }
 
