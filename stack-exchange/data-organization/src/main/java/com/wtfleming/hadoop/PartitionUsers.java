@@ -90,10 +90,10 @@ public class PartitionUsers {
      * Sets the minimum possible last access date to subtract from each key
      * to be partitioned<br>
      * <br>
-     * 
+     *
      * That is, if the last min access date is "2008" and the key to
      * partition is "2009", it will go to partition 2009 - 2008 = 1
-     * 
+     *
      * @param job
      *            The job to configure
      * @param minLastAccessDateYear
