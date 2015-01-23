@@ -78,7 +78,7 @@ public class Binning {
         return;
       }
 
-      // If the post contains the word "hadoop", write it to its own bin
+      // If the post contains the word "skyrim", write it to its own bin
       if (post.toLowerCase().contains("skyrim")) {
         mos.write("bins", value, NullWritable.get(), "skyrim-post");
       }
